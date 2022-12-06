@@ -28,7 +28,7 @@ public class BinarySearch {
         while(start <=end){
             //find the middle index;
           //  int mid= start +(end-start)/2;
-            int mid= (start/2) +(end/2); //Thanks sir
+            int mid= start + (end-start)/2; //Thanks sir
             if(target <arr[mid]){
                 end= mid-1;
             } else if (target > arr[mid]) {
